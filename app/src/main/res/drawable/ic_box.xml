@@ -1,0 +1,29 @@
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <gradient
+        android:endColor="#fff"
+        android:centerColor="#fff"
+        android:startColor="#fff"
+        android:angle="270" />
+    <corners
+        android:radius="8dp" />
+    <padding
+        android:left="10dp"
+        android:top="10dp"
+        android:right="10dp"
+        android:bottom="10dp" />
+</shape>
+<!--<vector-->
+    <!--xmlns:android="http://schemas.android.com/apk/res/android"-->
+    <!--android:name="vector"-->
+    <!--android:width="140dp"-->
+    <!--android:height="155dp"-->
+    <!--android:viewportWidth="155"-->
+    <!--android:viewportHeight="155">-->
+    <!--<group android:name="group_1">-->
+        <!--<path-->
+            <!--android:name="path_1"-->
+            <!--android:pathData="M 31.82 0 L 123.18 0 C 131.616 0 139.715 3.355 145.68 9.32 C 151.645 15.285 155 23.384 155 31.82 L 155 123.18 C 155 131.616 151.645 139.715 145.68 145.68 C 139.715 151.645 131.616 155 123.18 155 L 31.82 155 C 23.384 155 15.285 151.645 9.32 145.68 C 3.355 139.715 0 131.616 0 123.18 L 0 31.82 C 0 23.384 3.355 15.285 9.32 9.32 C 15.285 3.355 23.384 0 31.82 0"-->
+            <!--android:fillColor="#ffffff"-->
+            <!--android:strokeWidth="1"/>-->
+    <!--</group>-->
+<!--</vector>-->

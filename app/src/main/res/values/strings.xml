@@ -1,0 +1,109 @@
+<resources>
+    <string name="app_name">مخدوم</string>
+    <string name="title_activity_splash">SplashActivity</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="creat_new_account">انشاء حساب جديد </string>
+    <string name="title_activity_home">الرئيسية</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+
+    <!--add reservation strings-->
+    <string name="rest_name">اسم الاسترحة</string>
+    <string name="rest_desc">وصف الاستراحة</string>
+    <string name="rest_location">موقع الاستراحة علي الخريطة</string>
+    <string name="rest_images">صور الاستراحة</string>
+    <string name="rest_prices">اضغظ هنا لوضع اسعار الاسبوع</string>
+    <string name="rest_size">مساحة الاستراحة:</string>
+    <string name="rest_type">نوع الاستراحة:</string>
+    <string name="rest_category">فئة الاستراحة:</string>
+    <string name="rest_features">مرافق الاستراحة</string>
+    <string name="feature_men_swimpool">مسبح رجالي</string>
+    <string name="feature_women_swimpool">مسبح نسائي</string>
+    <string name="feature_kids_pays">ملاعب اطفال</string>
+    <string name="feature_women_part">قسم للنساء</string>
+    <string name="rest_uses">مميزات الاستراحة</string>
+
+    <string name="feature_mfrosha">مفروشة</string>
+    <string name="feature_air_condition">مكيف هواء</string>
+    <string name="feature_kitchen">مطبخ جاهز</string>
+    <string name="feature_store">مخزن</string>
+    <string name="feature_good_view">واجهة بحرية</string>
+    <string name="feature_garden">تلفزيون</string>
+    <string name="feature_tv">حديقة</string>
+    <string name="feature_car_park">موقف سيارات</string>
+    <string name="feature_hall">صالة</string>
+    <string name="feature_modern_decore">ديكور حديث</string>
+    <string name="feature_wifi">واي فاي</string>
+    <string name="price_dialog_titile">ضع سعر التاجير لكل يوم من ايام الاسبوع</string>
+
+
+    <string name="sat">السبت </string>
+    <string name="sun">الحد </string>
+    <string name="mon">الاثنين </string>
+    <string name="tue">الثلاثاء </string>
+    <string name="wed">الاربع </string>
+    <string name="thu">الخميس </string>
+    <string name="fri"> الجمعه  </string>
+    <string name="rial">ريال</string>
+    <string name="agree">موافق</string>
+    <string name="confirm_reservation">تاكيد الحجز</string>
+    <string name="cancel_reservation">الغاء الحجز</string>
+    <string name="my_last_res">الحجوزات السابقه</string>
+    <string name="current_res">الحجوزات الحاليه</string>
+
+
+    <string-array name="categories_array">
+        <item>عوائل</item>
+        <item>شباب</item>
+        <item>نساء</item>
+    </string-array>
+
+
+    <string-array name="reservation_duration_array">
+        <item> 1 </item>
+        <item> 2 </item>
+        <item> 3 </item>
+        <item> 4 </item>
+        <item> 5 </item>
+        <item> 6 </item>
+        <item> 7 </item>
+        <item> 8 </item>
+
+
+    </string-array>
+
+
+    <string name="title_activity_reservation">ReservationActivity</string>
+    <string name="contact_with_manger">التواصل مع ادارة الموقع</string>
+    <string name="phone_number">رقم الهاتف</string>
+    <string name="mobile_number">رقم الجوال</string>
+    <string name="contact_to_manager">للتواصل مع ادراة الموقع</string>
+    <string name="rate">تقييم</string>
+    <string name="add_ratting_dialog">ضع تقييمك للاستراحة هنا</string>
+    <string name="add_ratting">ضع تقييمك هنا</string>
+    <string name="price_dialog_titile_show">سعر التاجير لكل يوم من ايام الاسبوع</string>
+    <string name="salary">السعر</string>
+    <string name="nearest">الاقرب</string>
+    <string name="highest_rate">التقييم</string>
+    <string name="rest_rate">قم بتقييم الاستراحة</string>
+    <string name="rest_last_clients_rates">تقييم العملاء السابقين</string>
+    <string name="rest_reserve">حجز الاستراحة</string>
+    <string name="clients_rates">تقييم العملاء السابقين</string>
+    <string name="reserve_duration">مدة الحجز بالايام</string>
+    <string name="rest_advantages">مميزات الاستراحة</string>
+    <string name="add_to_favorite">اضافة للمفضلة</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="no_data_available">لا يوجد بيانات</string>
+    <string name="category_rate">الفئة</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+</resources>

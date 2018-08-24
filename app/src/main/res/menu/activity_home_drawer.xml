@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_home"
+            android:title="الرئيسية" />
+
+
+        <!--<item-->
+            <!--android:id="@+id/nav_settings"-->
+            <!--android:icon="@drawable/ic_setting_white"-->
+            <!--android:title="الاعدادات" />-->
+
+        <item
+            android:id="@+id/nav_my_reservation"
+            android:icon="@drawable/my_reservations"
+            android:title="حجوزاتي" />
+
+        <item
+            android:id="@+id/nav_my_notifications"
+            android:icon="@drawable/ic_notifications_none_black_24dp"
+            android:title="التنبيهات"/>
+
+
+        <item
+            android:id="@+id/nav_my_profile"
+            android:icon="@drawable/ic_person_login"
+            android:title="ملفي الشخصي" />
+
+
+        <item
+            android:id="@+id/nav_my_favorite"
+            android:icon="@drawable/favorite_icon"
+            android:title="المفضلة" />
+
+        <item
+            android:id="@+id/nav_contactus"
+            android:icon="@drawable/ic_phone"
+            android:title="اتصل بنا" />
+        <item
+            android:id="@+id/nav_bank_accounts"
+            android:icon="@drawable/ic_visa"
+            android:title="الحسابات البنكية" />
+        <item
+            android:id="@+id/nav_condition"
+            android:icon="@drawable/terms_and_conditions"
+            android:title="سياسية الشروط والاحكلم" />
+
+
+
+        <item
+            android:id="@+id/nav_logout"
+            android:icon="@drawable/ic_logout"
+            android:title="الخروج" />
+
+    </group>
+
+
+</menu>

@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <android.support.constraint.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <android.support.constraint.Guideline
+            android:id="@+id/hg1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            app:layout_constraintGuide_percent="0.21" />
+
+        <android.support.constraint.Guideline
+            android:id="@+id/hg2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            app:layout_constraintGuide_percent="0.3" />
+
+
+        <TextView
+            android:id="@+id/tv"
+            android:layout_width="0dp"
+            android:layout_height="161dp"
+            android:background="@drawable/background_gredient"
+            android:fontFamily="@font/kufi"
+            android:gravity="center"
+            android:text="اختر ما تريد الدخول اليه"
+            android:textColor="@android:color/white"
+            app:layout_constraintBottom_toTopOf="@+id/hg2"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/imageView3" />
+
+        <ImageView
+            android:id="@+id/img_reservation"
+            android:layout_width="130dp"
+            android:layout_height="130dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="28dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:elevation="5dp"
+            android:background="@drawable/ic_box"
+            android:scaleType="centerInside"
+            android:src="@drawable/ass_lkey"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/guideline"
+            app:layout_constraintTop_toTopOf="@+id/hg1" />
+
+        <ImageView
+            android:id="@+id/img_add_rest"
+            android:layout_width="130dp"
+            android:layout_height="130dp"
+            android:layout_marginBottom="8dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="28dp"
+            android:layout_marginTop="8dp"
+            android:elevation="5dp"
+            android:background="@drawable/ic_box"
+            android:scaleType="centerInside"
+            android:src="@drawable/ass_home"
+            app:layout_constraintEnd_toEndOf="@+id/guideline"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/hg1" />
+
+        <TextView
+            android:id="@+id/tv_add_rest"
+            style="@style/categoryText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginStart="8dp"
+            android:text="اضافة استراحة"
+            android:elevation="5dp"
+            app:layout_constraintBottom_toBottomOf="@+id/img_add_rest"
+            app:layout_constraintEnd_toEndOf="@+id/img_add_rest"
+            app:layout_constraintStart_toStartOf="@+id/img_add_rest" />
+
+        <ImageView
+            android:id="@+id/img_notification"
+            android:layout_width="130dp"
+            android:layout_height="130dp"
+            android:layout_marginLeft="28dp"
+            android:layout_marginRight="28dp"
+            android:layout_marginTop="36dp"
+            android:elevation="5dp"
+            android:background="@drawable/ic_box"
+            android:scaleType="centerInside"
+            android:src="@drawable/ass_notify"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.524"
+            app:layout_constraintStart_toEndOf="@+id/guideline"
+            app:layout_constraintTop_toBottomOf="@+id/img_reservation" />
+
+        <TextView
+            android:id="@+id/tv_notification"
+            style="@style/categoryText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginStart="8dp"
+            android:text="التنبيهات"
+            android:elevation="5dp"
+            app:layout_constraintBottom_toBottomOf="@+id/img_notification"
+            app:layout_constraintEnd_toEndOf="@+id/img_notification"
+            app:layout_constraintStart_toStartOf="@+id/img_notification" />
+
+
+        <ImageView
+            android:id="@+id/img_myrest"
+            android:layout_width="130dp"
+            android:layout_height="130dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="28dp"
+            android:layout_marginTop="36dp"
+            android:background="@drawable/ic_box"
+            android:scaleType="centerInside"
+            android:elevation="5dp"
+            android:src="@drawable/ass_homw"
+            app:layout_constraintEnd_toEndOf="@+id/guideline"
+            app:layout_constraintHorizontal_bias="0.473"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/img_add_rest" />
+
+
+        <TextView
+            android:id="@+id/tv_myrest"
+            style="@style/categoryText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginLeft="8dp"
+            android:elevation="5dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginStart="8dp"
+            android:text="استراحتي"
+            app:layout_constraintBottom_toBottomOf="@+id/img_myrest"
+            app:layout_constraintEnd_toEndOf="@+id/img_myrest"
+            app:layout_constraintStart_toStartOf="@+id/img_myrest" />
+
+
+        <android.support.constraint.Guideline
+            android:id="@+id/guideline"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            app:layout_constraintGuide_percent="0.5" />
+
+        <TextView
+            android:id="@+id/tv_reservation"
+            style="@style/categoryText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginStart="8dp"
+            android:text="الحجوزات"
+            android:elevation="5dp"
+            app:layout_constraintBottom_toBottomOf="@+id/img_reservation"
+            app:layout_constraintEnd_toEndOf="@+id/img_reservation"
+            app:layout_constraintStart_toStartOf="@+id/img_reservation" />
+
+        <TextView
+            android:id="@+id/tv_notification_num"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="40dp"
+            android:gravity="center"
+            android:text="05"
+            android:textColor="@android:color/white"
+            android:textSize="12sp"
+            app:layout_constraintEnd_toEndOf="@+id/img_notification"
+            app:layout_constraintHorizontal_bias="0.19"
+            app:layout_constraintStart_toStartOf="@+id/img_notification"
+            app:layout_constraintTop_toTopOf="@+id/img_notification" />
+
+    </android.support.constraint.ConstraintLayout>
+
+
+</FrameLayout>

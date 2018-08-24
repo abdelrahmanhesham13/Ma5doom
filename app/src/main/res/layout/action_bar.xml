@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="@color/colorPrimary"
+    android:layoutDirection="rtl"
+    android:layout_height="?attr/actionBarSize"
+    android:orientation="vertical" >
+
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="finishActivity"
+        android:padding="10dp"
+        android:id="@+id/back_btn"
+        android:layout_centerVertical="true"
+        android:src="@drawable/ic_arrow_forward_black_24dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="تفاصيل الاستراحه"
+        android:textColor="#ffffff"
+        android:id="@+id/title"
+        android:layout_centerInParent="true"
+        android:fontFamily="@font/kufibold"
+        android:textSize="15sp" />
+
+</RelativeLayout>

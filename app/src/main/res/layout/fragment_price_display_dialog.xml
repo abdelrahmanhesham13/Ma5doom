@@ -1,0 +1,308 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@android:color/transparent"
+    android:layout_width="match_parent"
+    app:cardCornerRadius="4dp"
+    android:layout_margin="10dp"
+    android:layoutDirection="rtl"
+    android:layout_height="wrap_content">
+<android.support.v7.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/dialog_background"
+    android:layout_width="match_parent"
+    app:cardCornerRadius="4dp"
+    android:layout_margin="10dp"
+    android:layout_height="wrap_content">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_margin="10dp"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="50dp"
+                android:gravity="center"
+                android:text="@string/price_dialog_titile_show"
+                android:textColor="@android:color/black"
+                android:textStyle="bold" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="80dp"
+                android:layout_marginLeft="80dp"
+                android:background="@android:color/darker_gray"/>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:layout_marginTop="4dp"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="3"
+                    android:text="@string/sun"
+                    style="@style/weekPrice"/>
+
+                <TextView
+                    android:id="@+id/tv_son"
+                    android:layout_width="0dp"
+                    style="@style/weekPrice"
+                    android:gravity="center"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2"
+                    android:padding="4dp"
+                    android:text="25"/>
+
+                <TextView
+                    android:layout_margin="6dp"
+                    android:layout_width="0dp"
+                    style="@style/weekPrice"
+                    android:gravity="center"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="3"
+                    android:text="@string/rial"/>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:layout_marginTop="4dp"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="3"
+                    android:text="@string/mon"
+                    style="@style/weekPrice"/>
+
+                <TextView
+                    android:id="@+id/tv_mon"
+                    android:layout_width="0dp"
+                    style="@style/weekPrice"
+                    android:gravity="center"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2"
+                    android:padding="4dp"
+                    android:text="25"/>
+
+                <TextView
+                    android:layout_margin="6dp"
+                    android:layout_width="0dp"
+                    style="@style/weekPrice"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="3"
+                    android:gravity="center"
+                    android:text="@string/rial"/>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:layout_marginTop="4dp"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="3"
+                    android:text="@string/tue"
+                    style="@style/weekPrice"/>
+
+                <TextView
+                    android:id="@+id/tv_tue"
+                    android:layout_width="0dp"
+                    style="@style/weekPrice"
+                    android:gravity="center"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2"
+                    android:padding="4dp"
+                    android:text="25"/>
+
+                <TextView
+                    android:layout_margin="6dp"
+                    android:layout_width="0dp"
+                    style="@style/weekPrice"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="3"
+                    android:gravity="center"
+                    android:text="@string/rial"/>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:layout_marginTop="4dp"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="3"
+                    android:text="الاربعاء"
+                    style="@style/weekPrice"/>
+
+                <TextView
+                    android:id="@+id/tv_wed"
+                    android:layout_width="0dp"
+                    style="@style/weekPrice"
+                    android:gravity="center"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2"
+                    android:padding="4dp"
+                    android:text="25"/>
+
+                <TextView
+                    android:layout_margin="6dp"
+                    android:layout_width="0dp"
+                    style="@style/weekPrice"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="3"
+                    android:gravity="center"
+                    android:text="@string/rial"/>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:layout_marginTop="4dp"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="3"
+                    android:text="@string/thu"
+                    style="@style/weekPrice"/>
+
+                <TextView
+                    android:id="@+id/tv_thu"
+                    android:layout_width="0dp"
+                    style="@style/weekPrice"
+                    android:gravity="center"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2"
+                    android:padding="4dp"
+                    android:text="25"/>
+
+                <TextView
+                    android:layout_margin="6dp"
+                    android:layout_width="0dp"
+                    style="@style/weekPrice"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="3"
+                    android:gravity="center"
+                    android:text="@string/rial"/>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:layout_marginTop="4dp"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="3"
+                    android:text="@string/fri"
+                    style="@style/weekPrice"/>
+
+                <TextView
+                    android:id="@+id/tv_fri"
+                    android:layout_width="0dp"
+                    style="@style/weekPrice"
+                    android:gravity="center"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2"
+                    android:padding="4dp"
+                    android:text="25"/>
+
+                <TextView
+                    android:layout_margin="6dp"
+                    android:layout_width="0dp"
+                    style="@style/weekPrice"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="3"
+                    android:gravity="center"
+                    android:text="@string/rial"/>
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:layout_marginTop="4dp"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="3"
+                    android:text="@string/sat"
+                    style="@style/weekPrice"/>
+
+
+                <TextView
+                    android:id="@+id/tv_sat"
+                    android:layout_width="0dp"
+                    style="@style/weekPrice"
+                    android:gravity="center"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2"
+                    android:padding="4dp"
+                    android:text="25"/>
+
+                <TextView
+                    android:layout_margin="6dp"
+                    android:layout_width="0dp"
+                    style="@style/weekPrice"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="3"
+                    android:gravity="center"
+                    android:text="@string/rial"/>
+
+            </LinearLayout>
+
+
+            <Button
+                android:id="@+id/btn_agree"
+                android:layout_width="180dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="@drawable/btn_blue"
+                android:layout_marginRight="30dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginBottom="10dp"
+
+
+                android:text="@string/agree"
+                android:textColor="@android:color/white"/>
+        </LinearLayout>
+
+    </ScrollView>
+</android.support.v7.widget.CardView>
+
+</FrameLayout>

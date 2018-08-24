@@ -1,0 +1,293 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="8dp"
+    android:layout_marginLeft="8dp"
+    android:layout_marginRight="8dp"
+    android:elevation="8dp"
+    app:cardCornerRadius="16dp">
+
+    <android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="12dp"
+        android:background="@android:color/white">
+
+        <android.support.constraint.Guideline
+            android:id="@+id/vg1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            app:layout_constraintGuide_percent="0.02" />
+
+        <ImageView
+            android:id="@+id/rest_name_icn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            app:layout_constraintStart_toEndOf="@+id/vg1"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/ic_description" />
+
+        <TextView
+            android:id="@+id/rest_name"
+            style="@style/restName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8dp"
+            android:layout_marginStart="8dp"
+            android:fontFamily="@font/kufiboldir"
+            android:text="يكتب اسم الاستراحة هنا"
+            android:textSize="12sp"
+            app:layout_constraintBottom_toBottomOf="@+id/rest_name_icn"
+            app:layout_constraintStart_toEndOf="@+id/rest_name_icn"
+            app:layout_constraintTop_toTopOf="@+id/rest_name_icn" />
+
+        <ImageView
+            android:id="@+id/img_client_icn"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_marginRight="4dp"
+            android:layout_marginTop="16dp"
+            android:tint="@android:color/darker_gray"
+            app:layout_constraintStart_toEndOf="@+id/vg1"
+            app:layout_constraintTop_toBottomOf="@+id/rest_name_icn"
+            app:srcCompat="@drawable/ic_client" />
+
+        <TextView
+            android:id="@+id/client_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/kufi_ar_d"
+            android:text="اسم العميل"
+            android:textColor="@color/whiteBlack"
+            android:textSize="8sp"
+            app:layout_constraintStart_toEndOf="@+id/img_client_icn"
+            app:layout_constraintTop_toTopOf="@+id/img_client_icn" />
+
+
+        <TextView
+            android:id="@+id/tv_client_name"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="24dp"
+            android:layout_marginStart="20dp"
+            android:fontFamily="@font/kufiboldir"
+            android:text=" "
+            android:textColor="@color/whiteBlack"
+            android:textSize="10sp"
+            app:layout_constraintStart_toEndOf="@+id/client_name"
+            app:layout_constraintTop_toTopOf="@+id/client_name" />
+
+
+        <ImageView
+            android:id="@+id/img_date"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_marginRight="4dp"
+            android:layout_marginTop="16dp"
+            android:tint="@android:color/darker_gray"
+            app:layout_constraintStart_toEndOf="@+id/vg1"
+            app:layout_constraintTop_toBottomOf="@+id/img_client_icn"
+            app:srcCompat="@drawable/ic_date" />
+
+        <TextView
+            android:id="@+id/client_reservation_date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:fontFamily="@font/kufi_ar_d"
+            android:text="تاريخ الحجز"
+            android:textColor="@color/whiteBlack"
+            android:textSize="8sp"
+            app:layout_constraintStart_toEndOf="@+id/img_date"
+            app:layout_constraintTop_toTopOf="@+id/img_date" />
+
+
+        <TextView
+            android:id="@+id/tv_client_res_date"
+            android:layout_width="0dp"
+            android:layout_height="17dp"
+            android:layout_marginBottom="8dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginStart="20dp"
+            android:fontFamily="@font/kufiboldir"
+            android:text=" "
+            android:textColor="@color/whiteBlack"
+            android:textSize="10sp"
+            app:layout_constraintBottom_toBottomOf="@+id/client_reservation_date"
+            app:layout_constraintStart_toEndOf="@+id/client_reservation_date"
+            app:layout_constraintTop_toTopOf="@+id/client_reservation_date"
+            app:layout_constraintVertical_bias="0.0" />
+
+
+        <ImageView
+            android:id="@+id/img_time"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_marginRight="4dp"
+            android:layout_marginTop="16dp"
+            android:tint="@android:color/darker_gray"
+            app:layout_constraintStart_toEndOf="@+id/vg1"
+            app:layout_constraintTop_toBottomOf="@+id/img_date"
+            app:srcCompat="@drawable/ic_time" />
+
+        <TextView
+            android:id="@+id/client_reservation_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="4dp"
+            android:fontFamily="@font/kufi_ar_d"
+            android:text="وقت الحجز"
+            android:textColor="@color/whiteBlack"
+            android:textSize="8sp"
+            app:layout_constraintStart_toEndOf="@+id/img_time"
+            app:layout_constraintTop_toTopOf="@+id/img_time" />
+
+        <TextView
+            android:id="@+id/tv_client_res_time"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginStart="20dp"
+            android:fontFamily="@font/kufiboldir"
+            android:text=" "
+            android:textColor="@color/whiteBlack"
+            android:textSize="10sp"
+            app:layout_constraintStart_toEndOf="@+id/client_reservation_time"
+            app:layout_constraintTop_toTopOf="@+id/client_reservation_time" />
+
+
+        <ImageView
+            android:id="@+id/img_duration"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_marginRight="4dp"
+            android:layout_marginTop="16dp"
+            android:tint="@android:color/darker_gray"
+            app:layout_constraintStart_toEndOf="@+id/vg1"
+            app:layout_constraintTop_toBottomOf="@+id/img_time"
+            app:srcCompat="@drawable/ic_date" />
+
+        <TextView
+            android:id="@+id/client_reservation_duration"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="4dp"
+            android:layout_marginBottom="8dp"
+            android:fontFamily="@font/kufi_ar_d"
+            android:text="مدة الحجز"
+            android:textColor="@color/whiteBlack"
+            android:textSize="8sp"
+            app:layout_constraintBottom_toBottomOf="@+id/img_duration"
+            app:layout_constraintStart_toEndOf="@+id/img_duration"
+            app:layout_constraintTop_toTopOf="@+id/img_duration"
+            app:layout_constraintVertical_bias="0.0" />
+
+        <TextView
+            android:id="@+id/tv_client_res_duration"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="22dp"
+            android:layout_marginStart="22dp"
+            android:fontFamily="@font/kufiboldir"
+            android:text=" "
+            android:textColor="@color/whiteBlack"
+            android:textSize="10sp"
+            app:layout_constraintStart_toEndOf="@+id/client_reservation_duration"
+            app:layout_constraintTop_toTopOf="@+id/client_reservation_duration" />
+
+
+        <ImageView
+            android:id="@+id/img_state"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_marginRight="4dp"
+            android:layout_marginTop="16dp"
+            android:tint="@android:color/darker_gray"
+            app:layout_constraintStart_toEndOf="@+id/vg1"
+            app:layout_constraintTop_toBottomOf="@+id/img_duration"
+            app:srcCompat="@drawable/ic_edit" />
+
+        <TextView
+            android:id="@+id/client_reservation_state"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="4dp"
+            android:layout_marginBottom="8dp"
+            android:fontFamily="@font/kufi_ar_d"
+            android:text="حالة الحجز"
+            android:textColor="@color/whiteBlack"
+            android:textSize="8sp"
+            app:layout_constraintBottom_toBottomOf="@+id/img_state"
+            app:layout_constraintStart_toEndOf="@+id/img_state"
+            app:layout_constraintTop_toTopOf="@+id/img_state"
+            app:layout_constraintVertical_bias="0.0" />
+
+
+        <TextView
+            android:id="@+id/tv_client_res_state"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="22dp"
+            android:fontFamily="@font/kufiboldir"
+            android:text=""
+            android:textColor="@android:color/holo_orange_light"
+            android:textSize="10sp"
+            app:layout_constraintStart_toEndOf="@+id/client_reservation_state"
+            app:layout_constraintTop_toTopOf="@+id/client_reservation_state" />
+
+        <Button
+            android:id="@+id/btn_confirm"
+            android:layout_width="80dp"
+            android:layout_height="35dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="12dp"
+            android:background="@drawable/btn_orange"
+            android:backgroundTint="@color/colorGreen"
+            android:text="@string/confirm_reservation"
+            android:textColor="@android:color/white"
+            android:textSize="10sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/vg2"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/client_reservation_state" />
+
+        <Button
+            android:id="@+id/btn_cancel"
+            android:layout_width="80dp"
+            android:layout_height="35dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginEnd="32dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="12dp"
+            android:background="@drawable/btn_orange"
+            android:backgroundTint="@color/colorRed"
+            android:text="@string/cancel_reservation"
+            android:textColor="@android:color/white"
+            android:textSize="10sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="@+id/vg2"
+            app:layout_constraintTop_toBottomOf="@+id/client_reservation_state" />
+
+        <android.support.constraint.Guideline
+            android:id="@+id/vg2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            app:layout_constraintGuide_percent="0.50" />
+
+
+    </android.support.constraint.ConstraintLayout>
+</android.support.v7.widget.CardView>
